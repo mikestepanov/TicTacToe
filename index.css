@@ -1,10 +1,24 @@
+div#game {
+  position:fixed;
+  top: 40%;
+  left: 40%;
+}
+
 ul {
   list-style-type: none;
   display: grid;
-  grid-template-columns: 50px 50px 50px;
-  grid-template-rows: 50px 50px 50px;
+  grid-template-columns: 75px 75px 75px;
+  grid-template-rows: 75px 75px 75px;
+  grid-gap: 25px;
 }
 
 li {
+  padding: 1em;
   border: 1px solid red;
+}
+
+li:hover {
+  background: blue;
+  width: 50px;
+  height: 50px;
 }
